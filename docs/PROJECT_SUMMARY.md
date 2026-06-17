@@ -1,8 +1,8 @@
-# Project Summary — Ship It
+# Project Summary — PocketAI
 
 ## What it is
 
-Ship It is an agentic personal finance and micro-budgeting web app for students. It lets a student set a monthly budget, split it into categories, log expenses (manually or in plain language), receive alerts when a category nears or exceeds its limit, forecast where the month is heading, track saving goals, and generate monthly reports with AI-powered saving tips. AI assists at every friction point but never makes the final call — the student always reviews and confirms.
+PocketAI is an agentic personal finance and micro-budgeting web app for students. It lets a student set a monthly budget, split it into categories, log expenses (manually or in plain language), receive alerts when a category nears or exceeds its limit, forecast where the month is heading, track saving goals, and generate monthly reports with AI-powered saving tips. AI assists at every friction point but never makes the final call — the student always reviews and confirms.
 
 ## Who it is for
 
@@ -25,7 +25,7 @@ Students — with a focus on **Pakistan** and the **PKR (Rs)** currency. Student
 
 ## Responsible AI
 
-AI in Ship It is strictly assistive: **AI suggests, the student decides.** Every AI feature produces output the user can review, edit, or reject before it affects any data, and every AI response carries a clear "not financial advice" disclaimer. Disclaimers appear everywhere AI output is shown, and the core financial logic (budgets, alerts, forecasts, reports) is deterministic code, not AI.
+AI in PocketAI is strictly assistive: **AI suggests, the student decides.** Every AI feature produces output the user can review, edit, or reject before it affects any data, and every AI response carries a clear "not financial advice" disclaimer. Disclaimers appear everywhere AI output is shown, and the core financial logic (budgets, alerts, forecasts, reports) is deterministic code, not AI.
 
 ## Tech overview
 

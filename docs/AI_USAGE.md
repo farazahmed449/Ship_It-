@@ -1,6 +1,6 @@
-# AI Usage Declaration — Ship It
+# AI Usage Declaration — PocketAI
 
-Ship It uses AI as an **assistive layer only**. AI helps students log and understand their finances faster, but it never makes financial decisions on their behalf. This document declares exactly where and how AI is used, and the safeguards that keep the student in control.
+PocketAI uses AI as an **assistive layer only**. AI helps students log and understand their finances faster, but it never makes financial decisions on their behalf. This document declares exactly where and how AI is used, and the safeguards that keep the student in control.
 
 ## AI Provider
 
@@ -28,4 +28,4 @@ Takes a monthly summary (income, total spent, and per-category allocated/spent f
 
 ## AI-Assisted Development
 
-AI coding assistants were used to help build this project (scaffolding, boilerplate, and documentation). All code is understood, reviewed, and maintained by the team — the AI assistance accelerated development but did not replace the team's understanding of the system.
+AI coding assistants were used to help build this project (scaffolding, boilerplate, and documentation). All code is understood, reviewed, and maintained by Team Ship It — the AI assistance accelerated development but did not replace the team's understanding of the system.

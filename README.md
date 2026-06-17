@@ -1,6 +1,11 @@
-# Ship It — Student Finance & Micro-Budgeting Assistant
+# PocketAI — Student Finance & Micro-Budgeting Assistant
 
-**Ship It** is an agentic personal finance and micro-budgeting web app built for students. It combines simple, deterministic budgeting tools — monthly budgets, categorized expenses, threshold alerts, forecasts, saving goals, and monthly reports — with optional AI assistance that parses natural-language expenses, suggests categories, and offers saving tips. The AI always acts as a reviewable, overridable assistant: it suggests, the student decides. Built for the **MAJU CodeCraft Hackathon — Track 2**.
+**PocketAI** is an agentic personal finance and micro-budgeting web app built for students. It combines simple, deterministic budgeting tools — monthly budgets, categorized expenses, threshold alerts, forecasts, saving goals, and monthly reports — with optional AI assistance that parses natural-language expenses, suggests categories, and offers saving tips. The AI always acts as a reviewable, overridable assistant: it suggests, the student decides. Built for the **MAJU CodeCraft Hackathon — Track 2**.
+
+## Team
+**Team Ship It**
+- Faraz Ahmed Memon — Team Lead
+- Hafiz Muhammad Waleed
 
 ## Features
 
@@ -100,4 +105,4 @@ This account is pre-loaded with seed data (budget, categories, expenses, income,
 
 ## AI Usage
 
-Ship It uses the Groq API in three places: it **parses** natural-language text into a structured expense draft, **suggests** an expense category, and **generates** saving tips from a monthly summary. In every case the AI produces *overridable suggestions only* — each response carries a "not financial advice" disclaimer, and the user reviews, edits, or rejects the output before anything is saved. The AI never makes a final financial decision; all core budgeting, alerting, forecasting, and reporting logic is deterministic, non-AI code. See [docs/AI_USAGE.md](docs/AI_USAGE.md) for the full AI usage declaration.
+PocketAI uses the Groq API in three places: it **parses** natural-language text into a structured expense draft, **suggests** an expense category, and **generates** saving tips from a monthly summary. In every case the AI produces *overridable suggestions only* — each response carries a "not financial advice" disclaimer, and the user reviews, edits, or rejects the output before anything is saved. The AI never makes a final financial decision; all core budgeting, alerting, forecasting, and reporting logic is deterministic, non-AI code. See [docs/AI_USAGE.md](docs/AI_USAGE.md) for the full AI usage declaration.

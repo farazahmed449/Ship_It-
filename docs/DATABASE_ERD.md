@@ -1,4 +1,4 @@
-# Database ERD — Ship It
+# Database ERD — PocketAI
 
 The database has **10 tables**. All primary keys are **UUIDs**. Every user-owned table carries a `user_id` foreign key so data can be isolated per user.
 

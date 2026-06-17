@@ -1,6 +1,6 @@
-# Architecture — Ship It
+# Architecture — PocketAI
 
-Ship It is a classic three-tier web application — a React single-page app, a FastAPI backend, and a PostgreSQL database — with an external Groq AI service called only from the backend.
+PocketAI is a classic three-tier web application — a React single-page app, a FastAPI backend, and a PostgreSQL database — with an external Groq AI service called only from the backend.
 
 ## System Overview
 
