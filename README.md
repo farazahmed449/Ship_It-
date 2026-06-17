@@ -98,6 +98,7 @@ This account is pre-loaded with seed data (budget, categories, expenses, income,
 
 ## Known Limitations
 
+- Budgets and categories are create-and-view only — once a monthly budget total is set, or a category and its allocated amount are created, they cannot be edited or deleted from the UI. (Expenses support full edit and delete.) Editing and deleting budgets and categories is planned future scope.
 - **AI suggestions are limited to existing categories** — if the AI suggests a category that doesn't exist, the user must create it manually on the Budget page. This is **by design**, to keep the user in control.
 - **Single currency** — all amounts are in PKR (Rs).
 - **Forecast uses linear extrapolation** — it projects from the current spending rate, not a statistical model.
