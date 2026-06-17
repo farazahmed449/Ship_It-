@@ -29,3 +29,15 @@ Takes a monthly summary (income, total spent, and per-category allocated/spent f
 ## AI-Assisted Development
 
 AI coding assistants were used to help build this project (scaffolding, boilerplate, and documentation). All code is understood, reviewed, and maintained by Team Ship It — the AI assistance accelerated development but did not replace the team's understanding of the system.
+
+## AI Usage Declaration (Official Template)
+
+| Question | Team Response |
+|----------|---------------|
+| Which AI tools were used? | Groq API (Llama models) as the in-product AI feature; Claude (Anthropic) was used as a coding assistant during development. |
+| Was AI used for coding assistance? | Yes. Claude helped scaffold and write parts of the FastAPI backend and React frontend. All code was reviewed, tested, and is understood by the team. |
+| Was AI used inside the product as a feature? | Yes. Three features call the Groq API: natural-language expense parsing, expense category suggestion, and monthly saving suggestions. |
+| Which parts were AI-generated and then modified by the team? | The initial backend routers/services and frontend components were AI-assisted, then reviewed, fixed (e.g. bcrypt version pin, OAuth2 token endpoint for Swagger, Supabase pooler connection), and integrated by the team. |
+| Which AI outputs are mocked, if any? | None. All AI features call the live Groq API. If the API key is absent or the service is unreachable, the endpoints fail gracefully with a clear error rather than returning fake data. |
+| How can users review or override AI output? | Every AI output is a suggestion the user reviews before saving. Parsed expenses pre-fill a form the user must confirm; category suggestions are shown but the user picks the final category from their own budget; saving suggestions are display-only. AI never auto-saves or auto-decides. |
+| What safety limits/disclaimers are included? | Every AI response includes a disclaimer that it is AI-generated and not professional financial advice. AI never makes final financial decisions. Core budgeting, alerting, forecasting, and reporting logic is deterministic non-AI code. |
