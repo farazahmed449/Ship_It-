@@ -1,5 +1,7 @@
 # PocketAI — Student Finance & Micro-Budgeting Assistant
 
+<img width="1536" height="1024" alt="PocketAI banner" src="https://github.com/user-attachments/assets/f963bec7-d67f-4c4a-851b-d480e09caf14" />
+
 **PocketAI** is an agentic personal finance and micro-budgeting web app built for students. It combines simple, deterministic budgeting tools — monthly budgets, categorized expenses, threshold alerts, forecasts, saving goals, and monthly reports — with optional AI assistance that parses natural-language expenses, suggests categories, and offers saving tips. The AI always acts as a reviewable, overridable assistant: it suggests, the student decides. Built for the **MAJU CodeCraft Hackathon — Track 2**.
 
 ## Team
