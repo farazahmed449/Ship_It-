@@ -2,11 +2,15 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import Dashboard from './pages/Dashboard'
+import Budget from './pages/Budget'
+import Expenses from './pages/Expenses'
+import Goals from './pages/Goals'
+import Reports from './pages/Reports'
 import ProtectedRoute from './components/ProtectedRoute'
 
-// Placeholder components for protected pages — real pages come in later steps.
-function Placeholder({ name }) {
-  return <h1>{name} (placeholder)</h1>
+// Fallback for unknown routes.
+function NotFound() {
+  return <h1>404 Not Found</h1>
 }
 
 export default function App() {
@@ -22,13 +26,13 @@ export default function App() {
         {/* Protected routes — require a JWT */}
         <Route element={<ProtectedRoute />}>
           <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/budget" element={<Placeholder name="Budget" />} />
-          <Route path="/expenses" element={<Placeholder name="Expenses" />} />
-          <Route path="/goals" element={<Placeholder name="Goals" />} />
-          <Route path="/reports" element={<Placeholder name="Reports" />} />
+          <Route path="/budget" element={<Budget />} />
+          <Route path="/expenses" element={<Expenses />} />
+          <Route path="/goals" element={<Goals />} />
+          <Route path="/reports" element={<Reports />} />
         </Route>
 
-        <Route path="*" element={<Placeholder name="404 Not Found" />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   )
