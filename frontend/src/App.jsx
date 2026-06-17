@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import Login from './pages/Login'
 import Register from './pages/Register'
+import Dashboard from './pages/Dashboard'
 import ProtectedRoute from './components/ProtectedRoute'
 
 // Placeholder components for protected pages — real pages come in later steps.
@@ -20,7 +21,7 @@ export default function App() {
 
         {/* Protected routes — require a JWT */}
         <Route element={<ProtectedRoute />}>
-          <Route path="/dashboard" element={<Placeholder name="Dashboard" />} />
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/budget" element={<Placeholder name="Budget" />} />
           <Route path="/expenses" element={<Placeholder name="Expenses" />} />
           <Route path="/goals" element={<Placeholder name="Goals" />} />
