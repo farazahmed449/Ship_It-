@@ -20,7 +20,7 @@ export default function Navbar() {
 
   return (
     <nav className={styles.nav}>
-      <span className={styles.brand}>Student Finance</span>
+      <span className={styles.brand}>PocketAI</span>
       <div className={styles.links}>
         {LINKS.map((l) => (
           <NavLink

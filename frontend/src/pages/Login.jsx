@@ -58,7 +58,7 @@ export default function Login() {
     <div className={styles.page}>
       <div className={styles.card}>
         <div className={styles.brand}>
-          <h1>Student Finance</h1>
+          <h1>PocketAI</h1>
           <p>Welcome back — sign in to your account</p>
         </div>
 
