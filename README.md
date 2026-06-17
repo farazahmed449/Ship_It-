@@ -75,7 +75,7 @@ The frontend runs on **http://localhost:3000**.
 Create `backend/.env` with:
 
 ```env
-DATABASE_URL=postgresql://username:password@host:5432/student_finance
+DATABASE_URL=postgresql://postgres.[project-ref]:[password]@aws-1-ap-south-1.pooler.supabase.com:5432/postgres
 SECRET_KEY=your-secret-key-here
 GROQ_API_KEY=your-groq-api-key-here
 ALGORITHM=HS256
